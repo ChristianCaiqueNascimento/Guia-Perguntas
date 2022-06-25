@@ -7,17 +7,17 @@
           <h3>Realizar pergunta</h3>
         </div>
         <div class="card-body">
-          <form action="">
+          <form method="POST" action="/salvarpergunta">
             <div class="caixa-espaco">
               <label>Título</label>
-              <input type="text" placeholder="Título" class="form-control" />
+              <input type="text" placeholder="Título" class="form-control" name="titulo"/>
             </div>
 
             <div class="caixa-espaco">
               <label>Descrição</label>
               <textarea
                 placeholder="Descreva sua pergunta aqui"
-                class="form-control"
+                class="form-control" name="descricao"
               ></textarea>
             </div>
 
